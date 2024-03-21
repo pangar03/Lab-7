@@ -2,7 +2,7 @@ const tareas = [];
 const isPending = [];
 
 // Agregamos tareas y sus estados
-tareas.push("Hacer la cama", "Hacer la comida", "Hacer la cena", "Hacer la compra", "Hacer la colada", "Hacer la tarea", "Ir al doctor", "Ir al gimnasio", "Ir al trabajo", "Conseguir medicina");
+tareas.push("Hacer la cama", "Limpiar la cocina", "Hacer la cena", "Hacer la compra", "Hacer la colada", "Hacer la tarea", "Ir al doctor", "Ir al gimnasio", "Ir al trabajo", "Conseguir medicina");
 isPending.push(true, true, false, false, true, true, false, false, false, true);
 
 const agregarTareas = (nombreTarea, estado) => {
@@ -21,7 +21,7 @@ const agregarTareas = (nombreTarea, estado) => {
         checkIcon.innerHTML = '<i class="fa-solid fa-circle-check item__icon--pending"></i>';
     }
     else{
-        checkIcon.innerHTML = '<i class="fa-solid fa-circle-check"></i>';
+        checkIcon.innerHTML = '<i class="fa-solid fa-circle-check item__icon--completed"></i>';
     }
 
     // Agregamos el icono

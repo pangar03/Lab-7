@@ -50,13 +50,14 @@
 
 .item__icon {
     font-size: 1.5rem;
-    color: #fcfcfc;
 }
 
 .item__icon--pending {
+    font-size: 1.5rem;
     color: #c9c9c9;
 }
 
 .item__icon--completed {
-    color: #4CAF50;
+    font-size: 1.5rem;
+    color: #63E6BE;
 }
