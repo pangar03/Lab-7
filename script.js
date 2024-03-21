@@ -13,8 +13,7 @@ const agregarTareas = (nombreTarea, estado) => {
     // Agregamos el nombre de la tarea
     const nombre = document.createElement('h3');
     nombre.innerHTML = nombreTarea;
-    tarea.appendChild(nombre);
-
+    
     // Creamos un icono para el estado de la tarea
     const checkIcon = document.createElement('i');
     if(estado){;
@@ -22,9 +21,11 @@ const agregarTareas = (nombreTarea, estado) => {
     }
     else{
         checkIcon.innerHTML = '<i class="fa-solid fa-circle-check item__icon--completed"></i>';
+        nombre.classList.add("tasks__item--completed");
     }
-
-    // Agregamos el icono
+    
+    // Agregamos el icono y la tarea al div
+    tarea.appendChild(nombre);
     tarea.appendChild(checkIcon);
 
     // Retornamos la tarea
