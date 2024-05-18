@@ -1,0 +1,42 @@
+[
+    {
+        "name": "Hacer la cama",
+        "isPending": false
+    },
+    {
+        "name": "Hacer la comida",
+        "isPending": true
+    },
+    {
+        "name": "Limpiar la cocina",
+        "isPending": true
+    },
+    {
+        "name": "Hacer la compra",
+        "isPending": false
+    },
+    {
+        "name": "Hacer la colada",
+        "isPending": true
+    },
+    {
+        "name": "Limpiar el baño",
+        "isPending": true
+    },
+    {
+        "name": "Hacer la tarea",
+        "isPending": false
+    },
+    {
+        "name": "Hacer el desayuno",
+        "isPending": false
+    },
+    {
+        "name": "Cepillarse los dientes",
+        "isPending": true
+    },
+    {
+        "name": "Limpiar la casa",
+        "isPending": false
+    }
+]
