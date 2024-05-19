@@ -121,9 +121,9 @@ export const addTask = async (name) => {
     const listaTareas = await getTareas();
     console.log(listaTareas);
     listaTareas.forEach(element => {
+        console.log(element);
         if(element.name === name){
             throw new Error("La tarea ya existe");
-            return;
         }
     });
 
